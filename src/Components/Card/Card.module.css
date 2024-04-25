@@ -140,6 +140,7 @@
   line-height: 20px;
   letter-spacing: -0.01em;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 .bookBtn {
   padding: 14px 60px;
@@ -153,4 +154,5 @@
   color: #ffffff;
   border: none;
   margin-bottom: 26px;
+  cursor: pointer;
 }

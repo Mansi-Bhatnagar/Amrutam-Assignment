@@ -48,7 +48,9 @@ const Card = (props) => {
           </div>
         </div>
       </div>
-      <button className={classes.viewBtn}>View Profile</button>
+      <button className={classes.viewBtn} onClick={props.onClick}>
+        View Profile
+      </button>
       <button className={classes.bookBtn}>Book a consultation</button>
     </div>
   );

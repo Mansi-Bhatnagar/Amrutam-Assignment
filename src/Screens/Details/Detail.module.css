@@ -1,0 +1,500 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../../Assets/Fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../../Assets/Fonts/Nunito/static/Nunito-Medium.ttf");
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../Assets/Fonts/Inter/static/Inter-Light.ttf");
+}
+@font-face {
+  font-family: "InterM";
+  src: url("../../Assets/Fonts/Inter/static/Inter-Medium.ttf");
+}
+@font-face {
+  font-family: "Gotham";
+  src: url("../../Assets/Fonts/GothamRounded/GothamRoundedMedium/GothamRoundedMedium.otf");
+}
+.header {
+  text-align: center;
+  margin-top: 76px;
+  position: relative;
+}
+
+.header img {
+  width: calc(100vw - 220px);
+  border-radius: 12px;
+}
+.statsContainer {
+  width: calc(100vw - 221px);
+  background: #fffbf2;
+  border: 1px solid #d8d8d8;
+  height: 151px;
+  position: absolute;
+  top: 128px;
+  margin: 0 101.5px;
+}
+.header .bruce {
+  width: 159px;
+  height: 159px;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  left: 30px;
+  bottom: 25px;
+  margin: 0;
+}
+.stats {
+  float: right;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: calc(100vw - 409px);
+}
+.name {
+  margin-left: 24px;
+}
+.name div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 38px;
+}
+.name div h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 21.6px;
+  color: #212529;
+  margin: 0;
+  margin-right: 5px;
+}
+.name h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16.8px;
+  color: #3a643b;
+  margin: 8px 0 0 0;
+  text-align: left;
+}
+.name .rating {
+  margin-top: 15px;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.rating span {
+  font-family: "Nunito";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #626262;
+}
+.values {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 320px;
+  margin-top: 53px;
+}
+.values h5 {
+  font-family: "Poppins", sans-serif;
+  color: #3a643b;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.values span {
+  font-family: "Poppins", sans-serif;
+  color: #212529;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.bookBtn {
+  padding: 17.5px 33.5px;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  color: #ffffff;
+  background: #3a643b;
+  border: none;
+  margin: 48px 48px 0 0;
+}
+.mainContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 143px;
+  gap: 30px;
+}
+.intro {
+  margin-top: 27px;
+  margin-left: 34px;
+  margin-right: 58px;
+}
+.intro p {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #33354880;
+}
+.read {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.read div {
+  width: 437px;
+  background: #797979;
+  height: 0.5px;
+}
+.read span {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.lang {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-top: 33px;
+}
+.lang h3 {
+  font-family: "Nunito";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #000000;
+  margin: 0;
+}
+.links {
+  width: 205px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 39px;
+  margin-bottom: 33px;
+}
+.links div {
+  width: 40px;
+  height: 40px;
+  border: 0.3px solid #8e8e8e;
+  background: #f7f7fc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.specialize {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+  margin-top: 30px;
+  margin-left: 30px;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.spContainer {
+  width: 100px;
+  height: 96px;
+  border-radius: 9px;
+  border: 1px solid #eaeaea;
+  background: #fffcf2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spContainer img {
+  width: 78px;
+  height: 78px;
+  object-fit: cover;
+}
+.specialize h3 {
+  margin: 0;
+  margin-top: 7px;
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+}
+.specialize div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.concerns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 24px 0 24px 24px;
+  gap: 11px;
+}
+.experienceContainer {
+  margin-top: 34px;
+  margin-left: 28px;
+}
+.experienceContainer h3 {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 19.2px;
+  color: #3a643b;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 21.5px;
+  border-bottom: 1px solid #d1d5d1;
+  width: 421.5px;
+}
+.expImgContainer {
+  padding: 12px;
+  background: #f7f7fc;
+  border-radius: 6px;
+  width: fit-content;
+}
+.experience {
+  margin: 21.5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.expSec {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 413px;
+  margin-left: 10px;
+}
+.expSec h4 {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #333548;
+  margin: 0;
+  margin-bottom: 9px;
+}
+.expSec span {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #33354880;
+}
+.expSec h5 {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333548b5;
+  text-transform: uppercase;
+  margin: 0;
+}
+.sec2 {
+  width: 584px;
+  border-radius: 29px;
+  border: 1px solid #e8e8e8;
+}
+.fees {
+  border-radius: 15px;
+  border: 1px solid #e2e2e2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 34px 20px 45px 20px;
+}
+.fees h3 {
+  font-family: "Nunito";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.28px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin: 16px 0 16px 28px;
+}
+.fees span {
+  font-family: "InterM";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  letter-spacing: 0.2px;
+  color: #3a643b;
+  padding: 16px 28px 16px 0px;
+}
+.mode {
+  margin-bottom: 33px;
+}
+.mode h3 {
+  font-family: "Nunito";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.28px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  margin-left: 32px;
+  margin-right: 21px;
+  color: #000000;
+}
+.modeBorder {
+  background: #d4d4d4;
+  width: 232px;
+  height: 1px;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.modeNames {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 42px;
+}
+.modeNames div {
+  width: 158px;
+  height: 78px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+.modeNames div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.modeNames h4 {
+  font-family: "Gotham";
+  font-size: 16px;
+  font-weight: 350;
+  line-height: 19.2px;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+.modeNames span {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.82px;
+  letter-spacing: 0.5px;
+  color: #606060;
+}
+.timeHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.timeHeader h3 {
+  font-family: "Nunito";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.28px;
+  letter-spacing: 0.2px;
+  margin: 0;
+  margin-left: 39px;
+  margin-right: 27px;
+}
+.timeBorder {
+  background: #d4d4d4;
+  width: 291px;
+  height: 1px;
+}
+.calendar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 0.5px solid #8a8a8a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 9px;
+}
+.timeSlotsContainer {
+  width: 530px;
+  border: 1px solid #e1e1e1;
+  border-radius: 21px;
+  margin-top: 30px;
+  margin-left: 28px;
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.timeDate {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.36px;
+  letter-spacing: 0.2px;
+  margin: 0;
+  color: #131313;
+  text-align: center;
+  margin: 14px 14px 8px 14px;
+}
+.slots {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.82px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.morning h4,
+.evening h4 {
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.55px;
+  letter-spacing: 0.2px;
+  margin: 0;
+  margin-left: 39px;
+}
+.morningSlots,
+.eveningSlots {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-left: 39px;
+  margin-top: 13px;
+  margin-right: 39px;
+  margin-bottom: 31px;
+}
+.appoint {
+  border-radius: 8px;
+  background: #3a643b;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  padding: 17px 127px 17px 135px;
+  margin-left: 55px;
+  margin-bottom: 45px;
+  cursor: pointer;
+}

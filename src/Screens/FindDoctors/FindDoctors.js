@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Card from "../../Components/Card/Card";
 import Dropdown from "../../Components/Dropdown/Dropdown";
 import AppliedFilters from "../../Components/AppliedFilters/AppliedFilters";
@@ -30,13 +31,17 @@ const FindDoctors = () => {
     setAllFiltersDropdown((prev) => !prev);
   };
 
+  const navigate = useNavigate();
+  const viewHandler = () => {
+    navigate("/viewDetails");
+  };
   return (
     <div className={classes.container}>
       <div className={classes.searchSection}>
-        {/* <div className={`${classes.circle1} ${classes.circle}`} />
+        <div className={`${classes.circle1} ${classes.circle}`} />
         <div className={`${classes.circle2} ${classes.circle}`} />
         <div className={`${classes.circle3} ${classes.circle}`} />
-        <div className={`${classes.circle4} ${classes.circle}`} /> */}
+        <div className={`${classes.circle4} ${classes.circle}`} />
         <h1>find expert doctors for an in-clinic session here</h1>
         <div className={classes.searchInputs}>
           <div
@@ -135,7 +140,7 @@ const FindDoctors = () => {
         <AppliedFilters name={"Hindi"} />
       </div>
       <div className={classes.cardContainer}>
-        <Card name={"Dr. Bruce Willis"} />
+        <Card name={"Dr. Bruce Willis"} onClick={viewHandler} />
         <Card name={"Dr. Prerna Narang"} />
         <Card name={"Dr. Prerna Narang"} />
       </div>

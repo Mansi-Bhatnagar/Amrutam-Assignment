@@ -34,7 +34,12 @@ const Detail = () => {
   };
   return (
     <div>
-      <div className={classes.header}>
+      <div
+        className={classes.header}
+        data-aos="slide-right"
+        data-aos-delay="100"
+        data-aos-mirror="true"
+      >
         <img src={background} alt="background" />
         <div className={classes.statsContainer}>
           <img src={bruce} alt="doctor-bruce" className={classes.bruce} />
@@ -135,7 +140,13 @@ const Detail = () => {
       </div>
       <div className={classes.mainContent}>
         <div className={classes.sec1}>
-          <CardContainer name={"A Little About me"} button={true}>
+          <CardContainer
+            name={"A Little About me"}
+            button={true}
+            data-aos="slide-right"
+            data-aos-delay="100"
+            data-aos-mirror="true"
+          >
             <div className={classes.intro}>
               <p>
                 Hello I am Dr. Bruce Willis a Gynaecologist in Sanjivni Hospital
@@ -246,7 +257,12 @@ const Detail = () => {
               </div>
             </div>
           </CardContainer>
-          <CardContainer name={"I Specialize In"}>
+          <CardContainer
+            name={"I Specialize In"}
+            data-aos="slide-right"
+            data-aos-delay="100"
+            data-aos-mirror="true"
+          >
             <div className={classes.specialize}>
               <div>
                 <div className={classes.spContainer}>
@@ -274,7 +290,12 @@ const Detail = () => {
               </div>
             </div>
           </CardContainer>
-          <CardContainer name={"The Concerns I Treat"}>
+          <CardContainer
+            name={"The Concerns I Treat"}
+            data-aos="slide-right"
+            data-aos-delay="100"
+            data-aos-mirror="true"
+          >
             <div className={classes.concerns}>
               <Tag name={"Skin Treatment"} style={concernTagStyle} />
               <Tag name={"Pregnancy"} style={concernTagStyle} />
@@ -292,7 +313,12 @@ const Detail = () => {
               />
             </div>
           </CardContainer>
-          <CardContainer name={"My Work Experience"}>
+          <CardContainer
+            name={"My Work Experience"}
+            data-aos="slide-right"
+            data-aos-delay="100"
+            data-aos-mirror="true"
+          >
             <div className={classes.experienceContainer}>
               <h3>I have been in practice for : 7+ Years</h3>
               <div className={classes.experience}>
@@ -350,7 +376,12 @@ const Detail = () => {
               </div>
             </div>
           </CardContainer>
-          <CardContainer name={"Featured Reviews (102)"}>
+          <CardContainer
+            name={"Featured Reviews (102)"}
+            data-aos="slide-right"
+            data-aos-delay="100"
+            data-aos-mirror="true"
+          >
             <Review
               name={"Alicent Hightower"}
               date={"20 January 2023"}
@@ -369,7 +400,12 @@ const Detail = () => {
             />
           </CardContainer>
         </div>
-        <div className={classes.sec2}>
+        <div
+          className={classes.sec2}
+          data-aos="slide-left"
+          data-aos-delay="100"
+          data-aos-mirror="true"
+        >
           <div className={classes.fees}>
             <h3>Appointment Fee</h3>
             <span>₹699.00</span>

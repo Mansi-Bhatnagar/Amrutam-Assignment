@@ -105,7 +105,12 @@ const FindDoctors = () => {
           </div>
         </div>
       </div>
-      <div className={classes.filterSection}>
+      <div
+        className={classes.filterSection}
+        data-aos="slide-right"
+        data-aos-delay="100"
+        data-aos-mirror="true"
+      >
         <Dropdown
           name={"Expertise"}
           onClick={expertiseDropdownHandler}
@@ -133,7 +138,12 @@ const FindDoctors = () => {
           style={{ background: "#DCEEDC", color: "#3A643B" }}
         />
       </div>
-      <div className={classes.appliedFiltersContainer}>
+      <div
+        className={classes.appliedFiltersContainer}
+        data-aos="slide-left"
+        data-aos-delay="100"
+        data-aos-mirror="true"
+      >
         <AppliedFilters name={"Hair care"} />
         <AppliedFilters name={"Female"} />
         <AppliedFilters name={"Rs.0-Rs.500"} />
